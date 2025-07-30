@@ -1,0 +1,89 @@
+     /* inside style we can write css code */
+      /* Dot Means that we are targetting a class instead of all buttons */
+
+      .subscribe-button {
+        /* left of ths colon it tells property(what we are changing) , right side css value(what we are changing to) */
+        background-color: rgb(200, 0, 0);
+        /* color changes colour of text in button */
+        color: white;
+        border: none;
+        /* Giving height is not good 
+        that is why we use spaccing in inside the button that is padding
+        with padding it ajust its size automaticly */
+        /* height: 37px;
+        width: 105px; */
+        padding: 10px 16px;
+        /* to make cornor round */
+        border-radius: 2px;
+        /* pointer changes when goes on button */
+        cursor: pointer;
+        /* to add space outside the box we use margin */
+        margin-right: 8px;
+        margin-left: 20px;
+        /* transition takes 2 values 1. waht we want to change , 2.how long the transition will take*/
+        transition: opacity 0.15s;
+      }
+
+      /* hover is used when we hover over that button */
+      .subscribe-button:hover{
+        /* opacity is used to make it transparent it takes value between 0 and 1*/
+        opacity: 0.7;
+    }
+
+      /* active is used when we click on that button */
+      .subscribe-button:active {
+        opacity: 0.5;
+      }
+
+      .join-button {
+        background-color: white;
+        color: rgb(6, 95, 212);
+        border-color: rgb(6, 95, 212);
+        /* it is used to make it of one colour */
+        border-style: solid;
+        border-width: 1px;
+        /* height: 37px;
+        width: 67px; */
+        padding: 9px 16px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 0.15s, color 0.15s;
+        /* browsers align items based on text to override this we use this */
+        vertical-align: top;
+    }
+
+    .join-button:hover {
+      background-color: rgb(6, 95, 212);
+      color: white;
+    }
+
+    .join-button:active {
+      opacity: 0.5;
+    }
+
+    .tweet-button {
+      background-color: rgb(29, 155, 240);
+      color: white;
+      border: none;
+      /* height: 37px; 
+      width: 75px; */
+      padding: 10px 16px;
+      /* to get rounded corner we need to set border-radius to half the height or width which one is smaller */
+      border-radius: 18px;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: box-shadow 0.15s;
+        vertical-align: top;
+
+    }
+
+    .tweet-button:hover {
+      /* it takes 4 values 1.moves shadow to right,2. moves shadow down , 3.blur px,4. colour a controls the shadow*/
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .tweet-button:active {
+      opacity: 0.5;
+    }

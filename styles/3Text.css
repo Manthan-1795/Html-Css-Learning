@@ -1,0 +1,79 @@
+/* p is selector */
+      p{
+        /* every paragraph contains font-family = arial and margin-top also 
+        so we declare it globaly for all paragraphs */
+        font-family: Roboto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      /* .video-title is specific selector that is why margin-botton will be overriden by .element*/
+      .video-title {
+        /* to change the font */
+        /* font-family: Arial; */
+        font-weight: bold;
+        font-size: 18px;
+        width: 280px;
+        /* texts have default margin of 14pc on top and bottom so we have to remove it */
+        margin-bottom: 5px;
+        /* adjust spacing between line */
+        line-height: 24px;
+        /* property to align text */
+        /* text-align: center; */
+      }
+
+    .video-stats {
+        /* font-family: Arial; */
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        /* margin-top: 0px; */
+        margin-bottom: 20px;
+      }
+      
+    .video-author{
+      /* font-family: Arial;    */
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+      /* margin-top: 0px; */
+      margin-bottom: 20px;
+    }
+
+    .video-description {
+        font-family: Arial;
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        width: 280px;
+        margin-top: 0px;
+        line-height: 22px;
+        margin-bottom: 100px;
+    }
+
+    .apple-text {
+        margin-bottom: 50px;
+        font-size: 14px;
+        background-color: rgb(227, 65, 64);
+        color: white;
+        text-align: center;
+        padding: 15px 25px;
+        /* it will underline whole text */
+        /* text-decoration: underline; */
+    }
+
+    .class-link:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .span-eg {
+        color: red;
+        /* to acheive multiple space because in html multiple spaces count as one so we use margin */
+        margin-left: 12px;
+    }
+
+    .span-eg:hover{
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .span-eg:active {
+      color: blue;
+    }
