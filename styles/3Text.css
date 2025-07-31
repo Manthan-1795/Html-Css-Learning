@@ -1,6 +1,6 @@
 /* p is selector */
       p{
-        /* every paragraph contains font-family = arial and margin-top also 
+        /* every paragraph contains font-family = Roboto and margin-top also 
         so we declare it globaly for all paragraphs */
         font-family: Roboto;
         margin-top: 0px;
@@ -14,7 +14,7 @@
         font-weight: bold;
         font-size: 18px;
         width: 280px;
-        /* texts have default margin of 14pc on top and bottom so we have to remove it */
+        /* texts have default margin of 14px on top and bottom so we have to remove it */
         margin-bottom: 5px;
         /* adjust spacing between line */
         line-height: 24px;

@@ -2,14 +2,15 @@
       /* Dot Means that we are targetting a class instead of all buttons */
 
       .subscribe-button {
-        /* left of ths colon it tells property(what we are changing) , right side css value(what we are changing to) */
+        /* left of ths colon it tells property(what we are changing) 
+         right side css value(what we are changing to) */
         background-color: rgb(200, 0, 0);
         /* color changes colour of text in button */
         color: white;
         border: none;
         /* Giving height is not good 
-        that is why we use spaccing in inside the button that is padding
-        with padding it ajust its size automaticly */
+        that is why we use spacing in inside the button that is padding
+        with padding it adjust its size automaticly */
         /* height: 37px;
         width: 105px; */
         padding: 10px 16px;
@@ -20,7 +21,9 @@
         /* to add space outside the box we use margin */
         margin-right: 8px;
         margin-left: 20px;
-        /* transition takes 2 values 1. waht we want to change , 2.how long the transition will take*/
+        /* transition takes 2 values 
+        1. what we want to change
+        2.how long the transition will take*/
         transition: opacity 0.15s;
       }
 
@@ -59,7 +62,7 @@
     }
 
     .join-button:active {
-      opacity: 0.5;
+      opacity: 0.7;
     }
 
     .tweet-button {
@@ -75,15 +78,18 @@
       font-weight: bold;
       cursor: pointer;
       transition: box-shadow 0.15s;
-        vertical-align: top;
-
+      vertical-align: top;
     }
 
     .tweet-button:hover {
-      /* it takes 4 values 1.moves shadow to right,2. moves shadow down , 3.blur px,4. colour a controls the shadow*/
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+      /* it takes 4 values 
+      1.moves shadow to right
+      2.moves shadow down
+      3.blur px
+      4.colour a controls the shadow*/
+      box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.15);
     }
 
     .tweet-button:active {
-      opacity: 0.5;
+      opacity: 0.7;
     }
